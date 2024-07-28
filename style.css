@@ -95,9 +95,7 @@ form input {
 }
 
 @media screen and (max-width: 1024px) {
-    body {
-        background-color: lightgreen;
-    }
+
     .container {
         width: 15rem;
         height: 22rem;
