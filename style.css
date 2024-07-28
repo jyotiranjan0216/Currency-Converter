@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A5C4D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.container {
+    width: 20rem;
+    height: 23rem;
+    background-color: #7B6D8D;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.container h2 {
+    text-align: center;
+    color: #fff;
+}
+
+
+form p {
+    font-size: large;
+    margin-top: 2rem;
+    color: #fff;    
+}
+
+form input {
+    width: 19rem;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border: 0.01rem solid grey;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.convert-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+#image {
+    height: 2.5rem ; 
+    margin-top: 1.2rem;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 0.01rem solid grey;   
+    border-radius: 0.5rem;  
+    padding: 0rem 0.5rem;
+}
+
+.container .convert-form .option img {
+    height: 2rem;
+}
+
+.msg {
+    font-size: large;
+    color: #fff;
+}
+
+.form {
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+}
+.from-to {
+    color: white;
+}
+
+.btn {
+    border: none;
+    font-family: cursive;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #593F62;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+    .container {
+        width: 15rem;
+        height: 22rem;
+        background-color: #7B6D8D;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    form input {
+        width: 14.3rem;
+        padding: 0.4rem;
+        font-size: 0.7rem;
+        border: 0.01rem solid grey;
+        border-radius: 0.5rem;
+    }
+    .container .convert-form .option img {
+        height: 1.5rem;
+    }
+    .form {
+        padding: 0.1rem 0.2rem;
+        font-size: 0.8rem;
+        border-radius: 0.3rem;
+        border: none;
+    }
+    #image {
+        height: 1.5rem ; 
+        margin-top: 1.3rem;
+    }
+    .msg {
+        font-size: 1rem;
+        color: #fff;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+}

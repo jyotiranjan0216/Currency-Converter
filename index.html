@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency converter</h2>
+        <form>
+            <p>Enter the amount</p>
+            <input type="text" value="1">
+            <div class="convert-form">
+                <div>
+                    <div class="from-to">From</div>
+                    <div class="option">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                        <select name="from" class="form" id="from1">
+                            </select>
+                    </div>
+                </div>
+                <img id="image" src="exchange.png" alt="exchange">
+                <div>
+                    <div class="from-to">To</div>
+                    <div class="option">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                    <select name="to" class="form" id="to1">
+                    </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                1 USD = 83.54006579 INR
+            </div>
+            <button class="btn">Get exchange</button>
+        </form>
+    </div>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
